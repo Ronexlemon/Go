@@ -13,7 +13,6 @@ func main() {
 	// Call the Variable function from the same package
 	 Variable()
      Constants()
-     fmt.Println(LoopAndSum())
-     Pattern()
-	
+     
+	ForLoop()
 }
