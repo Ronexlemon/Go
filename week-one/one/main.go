@@ -18,4 +18,5 @@ func main() {
 	IfElse()
 	SwitchCase()
 	Array()
+	Slice()
 }
