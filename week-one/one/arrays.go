@@ -32,7 +32,18 @@ func twoDArray(){
 	fmt.Println("two interal array",b)
 }
 
+func inferedArrayLength(){
+	a:=[...]int{1,2,3,4,5}
+	fmt.Println("array with infered length",a,len(a))
+	
+}
+func initializedOnlyPart(){
+	a:=[5]int{1:20,3:40}
+	fmt.Println("init parts",a)
+}
 func Array(){
 	simpleArraya()
 	twoDArray()
+	inferedArrayLength()
+	initializedOnlyPart()
 }
