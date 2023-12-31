@@ -17,4 +17,5 @@ func main() {
 	ForLoop()
 	IfElse()
 	SwitchCase()
+	Array()
 }
