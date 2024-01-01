@@ -17,5 +17,6 @@ func sum(nums ... int){
 
 func Variadic(){
 	s:=[]int{1,2,3,4,5}
+	sum(8,9)
 	sum(s...)
 }
