@@ -17,6 +17,7 @@ func emptysliceWithnonZero(){
 	s[1]="b"
 	s[2]="c"
 	
+	
 	fmt.Println("After",s,"len",len(s),"cap",cap(s))
 
 }

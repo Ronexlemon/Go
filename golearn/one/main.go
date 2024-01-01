@@ -21,6 +21,7 @@ func main() {
 	Array()
 	Slice()
 	Map()
+	Range()
 	
 	
 }
