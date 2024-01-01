@@ -22,6 +22,6 @@ func main() {
 	Slice()
 	Map()
 	Range()
-	
+	Variadic()
 	
 }
