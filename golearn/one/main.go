@@ -25,5 +25,6 @@ func main() {
 	Variadic()
 	Closure()
 	Recursion(7)
+	Pointers()
 	
 }
