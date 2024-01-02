@@ -24,6 +24,6 @@ func main() {
 	Range()
 	Variadic()
 	Closure()
-	Recursion(10)
+	Recursion(7)
 	
 }
