@@ -23,5 +23,7 @@ func main() {
 	Map()
 	Range()
 	Variadic()
+	Closure()
+	
 	
 }
