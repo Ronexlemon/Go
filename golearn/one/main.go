@@ -27,4 +27,5 @@ func main() {
 	Recursion(7)
 	Pointers()
 	
+	StringRune()
 }

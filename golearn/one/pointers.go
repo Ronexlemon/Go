@@ -9,9 +9,7 @@ import "fmt"
 func passByValue(n,i int)int{
    return n+i
 }
-30799378012419867976
-25555581701568521804
-68582966068943810320
+
 
 //pass by pointer
 func passByreference(n,i *int)int{

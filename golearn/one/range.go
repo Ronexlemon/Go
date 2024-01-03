@@ -49,7 +49,7 @@ func iterateOverMap(){
 	m:= returnMap()
 
 	for k,v:= range m{
-		fmt.Printf(k,v)
+		fmt.Printf("%s ,%v",k,v)
 	}
 }
 //iterate just over only the keys
@@ -57,7 +57,7 @@ func iterateOverMapKeys(){
 	m:= returnMap()
 
 	for k:= range m{
-		fmt.Printf("keys: \n ",k)
+		fmt.Printf("keys: %s \n ",k)
 	}
 }
 //range on strings iterates over Unicode code points
