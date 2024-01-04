@@ -30,4 +30,5 @@ func main() {
 	StringRune()
 	Struct()
 	Method()
+	Interface()
 }
