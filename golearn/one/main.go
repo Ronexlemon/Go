@@ -31,4 +31,5 @@ func main() {
 	Struct()
 	Method()
 	Interface()
+	Structemebending()
 }
