@@ -35,5 +35,6 @@ func main() {
 	Generic()
 	Errors()
 	Goroutines()
+	Channel()
 
 }
