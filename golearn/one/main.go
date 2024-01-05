@@ -36,5 +36,6 @@ func main() {
 	Errors()
 	Goroutines()
 	Channel()
+	ChannelBuffered()
 
 }
