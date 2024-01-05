@@ -34,5 +34,6 @@ func main() {
 	Structemebending()
 	Generic()
 	Errors()
+	Goroutines()
 
 }
