@@ -32,4 +32,6 @@ func main() {
 	Method()
 	Interface()
 	Structemebending()
+	Generic()
+
 }
