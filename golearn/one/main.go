@@ -33,5 +33,6 @@ func main() {
 	Interface()
 	Structemebending()
 	Generic()
+	Errors()
 
 }
