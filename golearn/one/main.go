@@ -38,5 +38,6 @@ func main() {
 	Channel()
 	ChannelBuffered()
 	ChannelSyncronization()
+	ChannelDirection()
 
 }
