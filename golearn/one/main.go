@@ -42,5 +42,6 @@ func main() {
 	Select()
 	TimeOuts()
 	NonBlockingChannelOperation()
+	ClosingChannel()
 
 }
