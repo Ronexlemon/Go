@@ -45,5 +45,6 @@ func main() {
 	ClosingChannel()
 	RangeOverChannel()
 	Timers()
+	Tickers()
 
 }
