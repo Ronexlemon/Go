@@ -46,5 +46,6 @@ func main() {
 	RangeOverChannel()
 	Timers()
 	Tickers()
+	WorkerPool()
 
 }
