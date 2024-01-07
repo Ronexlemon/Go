@@ -44,5 +44,6 @@ func main() {
 	NonBlockingChannelOperation()
 	ClosingChannel()
 	RangeOverChannel()
+	Timers()
 
 }
