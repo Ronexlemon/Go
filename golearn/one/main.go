@@ -50,5 +50,6 @@ func main() {
 	WaitGroup()
 	RateLimiting()
 	AtomicCounter()
+	Mutex()
 
 }
