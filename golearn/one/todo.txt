@@ -1,3 +1,4 @@
 //look out for generics
 //channels
 //goroutines
+//waitgroup

@@ -47,5 +47,6 @@ func main() {
 	Timers()
 	Tickers()
 	WorkerPool()
+	WaitGroup()
 
 }
