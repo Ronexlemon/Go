@@ -48,5 +48,6 @@ func main() {
 	Tickers()
 	WorkerPool()
 	WaitGroup()
+	RateLimiting()
 
 }
