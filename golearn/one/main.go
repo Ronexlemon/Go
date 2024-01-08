@@ -49,5 +49,6 @@ func main() {
 	WorkerPool()
 	WaitGroup()
 	RateLimiting()
+	AtomicCounter()
 
 }
