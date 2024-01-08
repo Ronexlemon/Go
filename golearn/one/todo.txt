@@ -4,3 +4,4 @@
 //waitgroup
 //rateLimit
 //mutex
+//statefulGoroutine
