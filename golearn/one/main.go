@@ -52,5 +52,6 @@ func main() {
 	AtomicCounter()
 	Mutex()
 	//StatefulGoroutine()
+	Sort()
 
 }
