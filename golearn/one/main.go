@@ -57,5 +57,6 @@ func main() {
 	//Panic()
 	Defer()
 	Recover()
+	StringFunctions()
 
 }
