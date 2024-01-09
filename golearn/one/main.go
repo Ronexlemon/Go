@@ -55,5 +55,6 @@ func main() {
 	Sort()
 	SortByFunction()
 	//Panic()
+	Defer()
 
 }
