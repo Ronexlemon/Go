@@ -53,5 +53,6 @@ func main() {
 	Mutex()
 	//StatefulGoroutine()
 	Sort()
+	SortByFunction()
 
 }
