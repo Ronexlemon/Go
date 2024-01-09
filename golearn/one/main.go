@@ -54,5 +54,6 @@ func main() {
 	//StatefulGoroutine()
 	Sort()
 	SortByFunction()
+	//Panic()
 
 }
