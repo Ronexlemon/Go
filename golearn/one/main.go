@@ -58,6 +58,7 @@ func main() {
 	// Defer()
 	// Recover()
 	// StringFunctions()
-	StringFormating()
+	//StringFormating()
+	TextTempplates()
 
 }
