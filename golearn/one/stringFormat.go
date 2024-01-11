@@ -24,6 +24,12 @@ func StringFormating() {
 	ff("float1: %f\n",70.6) //floating point
 	ff("float2: %e\n",124000000.0) //scientific notation
 	ff("float2: %E\n",124000000.0)
+
+	//strings
+	ff("str1: %s\n","\"string\"") //string
+	ff("str2: %q\n","string") //string //to double quote string
+	ff("str3: %x\n","\"string\"") //renders string in base 16
+
 	
 	fmt.Fprintf(os.Stderr, "io: an %s\n", "error")
 }
