@@ -32,6 +32,10 @@ func StringFormating() {
 
 	ff("pointer: %p\n",&p) //representation pointer
 
+	ff("width1: |%6d|%6d| \n",123,45) //width
+	ff("width2: |%6f|%6f| \n",123.000,45.00) //width float
+	ff("width1: |%6s|%6s| \n","foo","soo") //string
+
 	
 	fmt.Fprintf(os.Stderr, "io: an %s\n", "error")
 }
