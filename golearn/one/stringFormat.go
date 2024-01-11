@@ -30,6 +30,8 @@ func StringFormating() {
 	ff("str2: %q\n","string") //string //to double quote string
 	ff("str3: %x\n","\"string\"") //renders string in base 16
 
+	ff("pointer: %p\n",&p) //representation pointer
+
 	
 	fmt.Fprintf(os.Stderr, "io: an %s\n", "error")
 }
