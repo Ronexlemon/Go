@@ -18,6 +18,7 @@ func StringFormating() {
 	ff("type: %T\n",p) //%v type of the value
 	ff("bool: %t\n",true) //%v fomrating boolens
 	ff("int: %d\n",123)
+	ff("bin %b\n",14)//binary representation
 	
 	fmt.Fprintf(os.Stderr, "io: an %s\n", "error")
 }
