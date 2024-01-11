@@ -59,6 +59,7 @@ func main() {
 	// Recover()
 	// StringFunctions()
 	//StringFormating()
-	TextTempplates()
+	//TextTempplates()
+	RegularExpression()
 
 }
