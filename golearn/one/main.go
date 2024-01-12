@@ -60,6 +60,7 @@ func main() {
 	// StringFunctions()
 	//StringFormating()
 	//TextTempplates()
-	RegularExpression()
+	//RegularExpression()
+	JSON()
 
 }
