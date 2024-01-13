@@ -75,9 +75,9 @@ strs := dat["strs"].([]interface{})
     fmt.Println(res.Fruits[0])
 
 
-	strs := dat["strs"].([]interface{})
-    str1 := strs[0].(string)
-    fmt.Println(str1)
+	strss := dat["strs"].([]interface{})
+    str11 := strss[0].(string)
+    fmt.Println(str11)
 
 	enc := json.NewEncoder(os.Stdout)
     d := map[string]int{"apple": 5, "lettuce": 7}
