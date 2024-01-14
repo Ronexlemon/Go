@@ -65,6 +65,7 @@ func main() {
 	//XML()
 	//Time()
 	//Epoch()
-	TimeFormating()
+	//TimeFormating()
+	RandomNumbers()
 
 }
