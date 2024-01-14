@@ -63,6 +63,7 @@ func main() {
 	//RegularExpression()
 	//JSON()
 	//XML()
-	Time()
+	//Time()
+	Epoch()
 
 }
