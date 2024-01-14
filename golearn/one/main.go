@@ -67,6 +67,7 @@ func main() {
 	//Epoch()
 	//TimeFormating()
 	//RandomNumbers()
-	NumberParsing()
+	//NumberParsing()
+	URLParsing()
 
 }
