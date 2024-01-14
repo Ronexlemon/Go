@@ -64,6 +64,7 @@ func main() {
 	//JSON()
 	//XML()
 	//Time()
-	Epoch()
+	//Epoch()
+	TimeFormating()
 
 }
