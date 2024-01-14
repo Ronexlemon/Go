@@ -13,4 +13,9 @@ func Base64Encoding(){
 	//decoding
 	standarddecoding,_:= b64.StdEncoding.DecodeString(standardencoder)
 	fmt.Println(string(standarddecoding))
+
+	uEnc := b64.URLEncoding.EncodeToString([]byte(data))
+    fmt.Println(uEnc)
+    uDec, _ := b64.URLEncoding.DecodeString(uEnc)
+    fmt.Println(string(uDec))
 }
