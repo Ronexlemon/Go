@@ -62,6 +62,7 @@ func main() {
 	//TextTempplates()
 	//RegularExpression()
 	//JSON()
-	XML()
+	//XML()
+	Time()
 
 }
