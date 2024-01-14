@@ -68,6 +68,7 @@ func main() {
 	//TimeFormating()
 	//RandomNumbers()
 	//NumberParsing()
-	URLParsing()
+	//URLParsing()
+	Sha256()
 
 }
