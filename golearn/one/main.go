@@ -61,6 +61,7 @@ func main() {
 	//StringFormating()
 	//TextTempplates()
 	//RegularExpression()
-	JSON()
+	//JSON()
+	XML()
 
 }
