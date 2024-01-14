@@ -69,6 +69,7 @@ func main() {
 	//RandomNumbers()
 	//NumberParsing()
 	//URLParsing()
-	Sha256()
+	//Sha256()
+	Base64Encoding()
 
 }
