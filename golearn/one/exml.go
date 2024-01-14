@@ -23,5 +23,11 @@ func XML() {
 	out,_:= xml.MarshalIndent(coffee, " ", " ")
 	fmt.Println(string(out))
 
-	
+	fmt.Println(xml.Header + string(out))
+
+	var p Plant
+	if err:=xml.Unmarshal(out,&p); err != nil{
+		panic(err)
+	}
+	fmt.Println(p)
 }
