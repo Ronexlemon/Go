@@ -70,6 +70,7 @@ func main() {
 	//NumberParsing()
 	//URLParsing()
 	//Sha256()
-	Base64Encoding()
+	//Base64Encoding()
+	ReadingFile()
 
 }
