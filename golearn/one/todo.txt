@@ -1,10 +1,1 @@
-//look out for generics
-//channels
-//goroutines
-//waitgroup
-//rateLimit
-//mutex
-//statefulGoroutine
-//panic
-//regular expressions
-//reading file
+//readingAFile

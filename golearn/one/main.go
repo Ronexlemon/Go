@@ -71,6 +71,7 @@ func main() {
 	//URLParsing()
 	//Sha256()
 	//Base64Encoding()
-	ReadingFile()
+	//ReadingFile()
+	WriteFiles()
 
 }
