@@ -74,6 +74,7 @@ func main() {
 	//ReadingFile()
 	//WriteFiles()
 	//LineFilters()
-	FilePath()
+	//FilePath()
+	Logging()
 
 }
