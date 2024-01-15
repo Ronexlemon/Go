@@ -73,6 +73,7 @@ func main() {
 	//Base64Encoding()
 	//ReadingFile()
 	//WriteFiles()
-	LineFilters()
+	//LineFilters()
+	FilePath()
 
 }
