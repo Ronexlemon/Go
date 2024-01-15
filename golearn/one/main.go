@@ -75,6 +75,7 @@ func main() {
 	//WriteFiles()
 	//LineFilters()
 	//FilePath()
-	Logging()
+	//Logging()
+	HttpClient()
 
 }
