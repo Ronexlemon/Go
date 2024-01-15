@@ -72,6 +72,7 @@ func main() {
 	//Sha256()
 	//Base64Encoding()
 	//ReadingFile()
-	WriteFiles()
+	//WriteFiles()
+	LineFilters()
 
 }
