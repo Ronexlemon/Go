@@ -77,6 +77,7 @@ func main() {
 	//FilePath()
 	//Logging()
 	//HttpClient()
-	HttpServer()
+	//HttpServer()
+	Context()
 
 }
