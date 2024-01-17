@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"greetings"
 	
 )
 
@@ -78,6 +79,7 @@ func main() {
 	//Logging()
 	//HttpClient()
 	//HttpServer()
-	Context()
+	//Context()
+	fmt.Println(greetings.HelloReturnName("ronex"))
 
 }
