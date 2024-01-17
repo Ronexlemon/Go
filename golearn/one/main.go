@@ -1,21 +1,21 @@
 package main
 
 import (
+	"error/handle"
 	"fmt"
 	"greetings"
-	
 )
 
 func main() {
-	 fmt.Println("go" + "lang") // strings
+	fmt.Println("go" + "lang") // strings
 	// fmt.Println(true && false) // boolean
 	// fmt.Println(7.0 + 7.33)    // float
 	// fmt.Println(5 + 5)         // integer
 
 	// // Call the Variable function from the same package
 	//  Variable()
-    //  Constants()
-     
+	//  Constants()
+
 	// ForLoop()
 	// IfElse()
 	// SwitchCase()
@@ -27,7 +27,7 @@ func main() {
 	// Closure()
 	// Recursion(7)
 	// Pointers()
-	
+
 	// StringRune()
 	// Struct()
 	// Method()
@@ -81,5 +81,6 @@ func main() {
 	//HttpServer()
 	//Context()
 	fmt.Println(greetings.HelloReturnName("ronex"))
+	fmt.Println(errorhandle.ErrorHandle(""))
 
 }
