@@ -1,4 +1,9 @@
 go 1.21.3
 
-use ./golearn/one
-use ./goModule/greetings
+use (
+	./ErrorHandle
+	./golearn/one
+    ./goModule/greetings
+)
+
+//use ./goModule/greetings
