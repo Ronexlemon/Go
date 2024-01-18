@@ -84,5 +84,6 @@ func main() {
 	fmt.Println(greetings.HelloReturnName("ronex"))
 	fmt.Println(errorhandle.ErrorHandle(""))
 	fmt.Println(randomGreeting.RandomGreeting("ronex"))
+	fmt.Println(randomGreeting.HelloForMultiplePeople([]string{"Ronex","John","Yollow","Haman"}))
 
 }
