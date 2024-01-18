@@ -7,6 +7,9 @@ replace greetings => ../../goModule/greetings
 require (
 	error/handle v0.0.0-00010101000000-000000000000
 	greetings v0.0.0-00010101000000-000000000000
+	randomGreeting v0.0.0-00010101000000-000000000000
 )
 
 replace error/handle => ../../ErrorHandle
+
+replace randomGreeting => ../../random

@@ -4,6 +4,7 @@ import (
 	"error/handle"
 	"fmt"
 	"greetings"
+	"randomGreeting"
 )
 
 func main() {
@@ -82,5 +83,6 @@ func main() {
 	//Context()
 	fmt.Println(greetings.HelloReturnName("ronex"))
 	fmt.Println(errorhandle.ErrorHandle(""))
+	fmt.Println(randomGreeting.RandomGreeting("ronex"))
 
 }
