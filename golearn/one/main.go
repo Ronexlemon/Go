@@ -1,10 +1,8 @@
 package main
 
 import (
-	"error/handle"
 	"fmt"
-	"greetings"
-	"randomGreeting"
+	"multimodule"
 )
 
 func main() {
@@ -81,9 +79,10 @@ func main() {
 	//HttpClient()
 	//HttpServer()
 	//Context()
-	fmt.Println(greetings.HelloReturnName("ronex"))
-	fmt.Println(errorhandle.ErrorHandle(""))
-	fmt.Println(randomGreeting.RandomGreeting("ronex"))
-	fmt.Println(randomGreeting.HelloForMultiplePeople([]string{"Ronex","John","Yollow","Haman"}))
+	// fmt.Println(greetings.HelloReturnName("ronex"))
+	// fmt.Println(errorhandle.ErrorHandle(""))
+	// fmt.Println(randomGreeting.RandomGreeting("ronex"))
+	// fmt.Println(randomGreeting.HelloForMultiplePeople([]string{"Ronex","John","Yollow","Haman"}))
+	multimodule.Hello_Multimodule()
 
 }
