@@ -6,9 +6,7 @@ type User struct {
 	Age      int
 }
 
-type Player struct {
-	Health int
-}
+
 
 func (u User) Email() string {
 	return u.UserEmail
