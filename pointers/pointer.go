@@ -21,9 +21,13 @@ func (u *User) updateEmail(email string){
 	
 
 }
+func getUser()(*User,error){
+	return nil,fmt.Errorf("lemonr")
+}
 func Pointer() {
 	user := User{email: "johndoe@gmail.com"}
 	user.updateEmail("lemonron@gmail.com")
+	fmt.Println(getUser())
 
 	fmt.Println(user.Email())
 }
