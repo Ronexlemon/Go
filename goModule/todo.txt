@@ -1,3 +1,5 @@
 //go module
 //go mod edit -replace example.com/greetings=../greetings
 //go mod tidy
+//go test
+//build an executable

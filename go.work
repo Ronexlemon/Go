@@ -4,6 +4,9 @@ use (
 	./ErrorHandle
 	./golearn/one
     ./goModule/greetings
+	./random
+	./multi-module/workspace/hello
+	./pointers
 )
 
 //use ./goModule/greetings
