@@ -6,19 +6,31 @@ import (
 )
 
 
-func takeDamageFromExplosion(player types.Player){
-	fmt.Println("Player is taking damage from an explosion")
-	explosionDamage :=10
 
-	player.Health-= explosionDamage
-}
 
 
 func Pointer() {
 	user := types.User{UserEmail: "johndoe@gmail.com"}
 	user.UpdateEmail("james milnaer")
+	fmt.Println(user.Email())
+
+	fmt.Println("player turn")
+	num:=4
+
+	player := types.Player{Health: 100}
+
+
+
 	
 	
 
-	fmt.Println(user.Email())
+	for i:=0;i<num;i++{
+		 player.TakeDamageFromExplosion()
+	}
+
+	fmt.Println(player.NewPlayerHealth())
+	
+	
+	
+
 }
