@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"multimodule"
+	"example/pointers"
 )
 
 func main() {
@@ -84,5 +85,6 @@ func main() {
 	// fmt.Println(randomGreeting.RandomGreeting("ronex"))
 	// fmt.Println(randomGreeting.HelloForMultiplePeople([]string{"Ronex","John","Yollow","Haman"}))
 	multimodule.Hello_Multimodule()
+	pointers.Pointer()
 
 }
