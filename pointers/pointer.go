@@ -2,32 +2,23 @@ package pointers
 
 import (
 	"fmt"
+	"example/pointers/types"
 )
 
-type User struct {
-	email    string
-	username string
-	age      int
+
+func takeDamageFromExplosion(player types.Player){
+	fmt.Println("Player is taking damage from an explosion")
+	explosionDamage :=10
+
+	player.Health-= explosionDamage
 }
 
-func (u User) Email() string {
-	return u.email
-}
-func Email(u User)string{
-	return u.email
-}
-func (u *User) updateEmail(email string){
-	u.email = email
-	
 
-}
-func getUser()(*User,error){
-	return nil,fmt.Errorf("lemonr")
-}
 func Pointer() {
-	user := User{email: "johndoe@gmail.com"}
-	user.updateEmail("lemonron@gmail.com")
-	fmt.Println(getUser())
+	user := types.User{UserEmail: "johndoe@gmail.com"}
+	user.UpdateEmail("james milnaer")
+	
+	
 
 	fmt.Println(user.Email())
 }
