@@ -13,9 +13,17 @@ type User struct {
 func (u User) Email() string {
 	return u.email
 }
+func Email(u User)string{
+	return u.email
+}
+func (u *User) updateEmail(email string){
+	u.email = email
+	
 
+}
 func Pointer() {
 	user := User{email: "johndoe@gmail.com"}
+	user.updateEmail("lemonron@gmail.com")
 
 	fmt.Println(user.Email())
 }
