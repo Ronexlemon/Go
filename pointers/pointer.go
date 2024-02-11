@@ -1,8 +1,9 @@
 package pointers
 
 import (
-	"fmt"
+	"example/pointers/hello"
 	"example/pointers/types"
+	"fmt"
 )
 
 
@@ -33,4 +34,7 @@ func Pointer() {
 	
 	
 
+}
+func Pointer2(){
+	hello.Hello()
 }
